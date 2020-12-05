@@ -1,0 +1,422 @@
+
+.navbar{
+	
+    background-color: #fff;
+	
+	transition:.10s;
+}
+
+
+ 
+
+.header-area.sticky{
+	
+	position:fixed;
+	left: 0;
+	right: 0;
+	width:100%;
+	background:#ddd;
+	z-index:4;
+	transition:.10s;
+	
+}
+
+
+
+.header-area.sticky{
+	
+	opacity:0.9;
+	transition:.3s;
+	
+}
+.header-area.sticky .navbar{
+	
+	background-color: #d9e4ef;
+	transition:.3s;
+}
+
+.nav-item{
+		
+	padding-left:1em;
+}
+
+.nav-link{
+	
+	text-transform:uppercase;
+}
+.hadding{
+	
+	text-align:left;
+	margin-top:auto;
+	padding-bottom:10px;
+}
+#hadding1{
+	display:block;
+	text-align:left;
+	font-size:80px;
+	color:#000;
+	padding-bottom:10px;
+	
+	position:relative;
+}
+
+#hadding2{
+	
+	text-align:left;
+	font-size:15px;
+	padding-bottom:10px;
+	
+	position:relative;
+}
+#hadding-of{
+	
+	padding-bottom:px;
+}
+
+.carousel-item{
+	height:750px; 
+}
+.carousel-img-1{
+	background: url('images/slider2.jpg');
+	background-size:cover;
+	
+}
+
+.carousel-img-2{
+	background: url('images/slider5.jpg');
+	background-size:cover;
+}
+
+.carousel-img-3{
+	background: url('images/slider4.jpg');
+	background-size:cover;
+}
+
+#getstarted{
+	
+	background:url('images/slide3.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	min-height:250px;
+	position:relative;
+
+}
+
+#btn-danger {
+	color: #FFF;
+	
+	border:2px solid #fff;
+}
+
+#btn-danger:hover{
+	
+	background-color:green;
+}
+
+#bg-success {
+	background: #E7C6C6;
+}
+.dark-overlay{
+	
+		background:rgba(0,0,0,0.7);
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		
+}
+.img-fluid {
+	height: 280px;
+	width: 540px;
+}
+
+#img-Id{
+	height:250px;
+}
+
+
+    
+@media(max-width:767px)
+{
+	.nav-item{
+		
+	padding-left:0em !important;
+}
+.getstarted{
+	min-height:300px;
+}
+
+
+}
+#youtubeid{
+	background:url('images/slider1.jpg');
+	background-attachment:fixed;
+	min-height:250px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	
+}
+
+.btn.btn-border.mb-2 {
+	background: #FF1E1E;
+}
+
+#footerId{
+	
+	background:#000;
+	
+}
+
+#aboutslideId{
+	
+	background:url('images/about-2.jpg');
+	background-size:cover;
+	
+	height:250px;
+	position:relative;
+	
+}
+
+#servicesslideId{
+	
+	background:url('images/secvices.jpg');
+	background-size:cover;
+	
+	height:250px;
+	position:relative;
+	
+}
+
+#blog-img{
+	height:250px;
+}
+
+#contactslideId[
+	background:url('images/contuct-1.jpg');
+]
+
+{
+	
+	background:url('images/Tanjin tisa.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	height:250px;
+	position:relative;
+	
+}
+
+
+	
+.img-info{
+		
+		height:450px;
+		width:450px;
+	}
+
+
+
+.dark-overlay-2{
+	
+	
+	background:rgba(0,0,0,0.7);
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	
+}
+
+.dark-overlay-3{
+	
+	
+	background:rgba(0,0,0,0.4);
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index:2;
+	
+}
+
+.dark-overlay-1{
+
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+}
+
+
+
+.anim{
+	
+	box-shadow:0 15px 18px  #FF1E1E;
+	opacity:0.5;
+}
+
+
+.box{
+	
+	height:100px;
+	width:100px;
+	background-color:#333;
+	position:relative;
+	
+}
+
+
+h4.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#getting-started {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.time_of{
+	
+	background-color:#f9a1ee;
+	text-align:center;
+	
+	width:215px;
+	padding:60px;
+	font-size: 30px;
+    
+}
+.time_of span{
+	
+	display:block;
+	font-size: 20px;
+	margin-top:10px;
+}
+
+#Project-title{
+	
+	border-bottom:2px solid #000;
+	border-bottom-style: dotted;
+	display: block;
+	margin-left: 350px;
+	margin-right: 350px;
+	
+}
+.single-manue ul {
+    list-style: none;
+    display: flex;
+    padding: 11px;
+	justify-content:center;
+}
+
+.single-manue ul li {
+    padding: 3px 26px;
+    border: 1px solid #eaeaea;
+	cursor:pointer;
+}
+
+.single-manue-ul li.active {
+    background-color: #dcd277;
+	color:#fff;
+	border:0;
+}
+
+
+.single-point {
+    position: relative;
+	overflow:hidden;
+}
+
+
+.single-overflow {
+    position: absolute;
+    top:-100%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+	color:#fff;
+	z-index: 2;
+	transition:.3s;
+	
+}
+
+
+.single-overflow::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    left: 0;
+    top:0%;
+    content: "";
+    opacity: 0.55;
+    z-index: -1;
+}
+
+.single-point:hover .single-overflow {
+    top: 0;
+}
+
+.manue-img{
+	
+	height:300px;
+	
+}
+.about{
+	border-bottom:1px solid #000;
+	
+}
+.cameraIcon{
+	
+	  padding:10px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	 
+}
+#we_love{
+	
+	margin-top:50px;
+}
+#we_love_span{
+	
+	color:#0d8882;
+	font-size: 30px;
+}
+#we_love_p{
+	
+	font-size: 17px;
+}
+
+.youtube-logo{
+	
+	height:50px;
+	width:50px;
+}
+@media(max-width: 480px)
+{
+	.carousel{
+		h2{
+			font-size:2.5rem;
+		}
+	}
+	#getstarted{
+	min-height:350px;
+}
+		
+	
+}
+
+
